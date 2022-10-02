@@ -97,6 +97,14 @@ a {
   border-radius: 4px;
   background-color: var(--secondary);
 }
+
+.abc {
+  padding-left: 4%;
+  padding-right: 4%;
+}
+.a {
+  height: 20px;
+}
 /* ----main section---- */
 
 .navbar {
@@ -194,7 +202,7 @@ a {
 
 .im {
   width: 100%;
-  height: 250px;
+  height: 200px;
 }
 
 .activitiesContainer,
@@ -204,7 +212,6 @@ a {
   gap: 1%;
 }
 
-.activity,
 .counsellor {
   padding: 1.5%;
   display: flex;
@@ -213,7 +220,7 @@ a {
   align-items: center;
   background: #ffffff14;
   width: 30%;
-  5height: 200px;
+  height: 390px;
 }
 
 .activityPhoto,
@@ -225,7 +232,6 @@ a {
   width: 100%;
 }
 
-.activityContent,
 .counsellorContent {
   display: flex;
   flex-direction: column;
@@ -246,8 +252,7 @@ a {
   margin: 2% 0%;
 }
 
-.counsellorbody,
-.activitybody {
+.counsellorbody {
   margin: 1% 4%;
 }
 
@@ -323,7 +328,13 @@ a {
     row-gap: 10px;
   }
   .counsellor {
-    width: 80%;
+    width: 95%;
     height: 100%;
+  }
+  .im {
+    height: 20%;
+  }
+  .counsellorPhoto {
+    height: 20%;
   }
 }
