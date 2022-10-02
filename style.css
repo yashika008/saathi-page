@@ -283,6 +283,13 @@ a {
 }
 
 @media (max-width: 574px) {
+  #actBody {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
   .grid .grid-item {
     width: calc(100% - 20px);
     margin-bottom: 3em;
