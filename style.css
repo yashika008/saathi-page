@@ -145,6 +145,26 @@ a {
   margin: 8px 10px;
   display: none;
 }
+
+.HomeContainer {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  column-gap: 3%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.homeText {
+  font-size: 1.1em;
+  line-height: 200%;
+}
+
+.homeTextHead {
+  text-align: justify;
+}
+
 /* ----navigation menu---- */
 /* ---- media query ---- */
 
@@ -185,6 +205,17 @@ a {
   .collapse-toggle {
     max-height: 500px;
   }
+  .HomeContainer {
+    flex-direction: column;
+  }
+  .homeText {
+    font-size: 1.1em;
+    line-height: 180%;
+    text-align: justify;
+  }
+  .homeTextHead {
+    text-align: left;
+  }
 }
 
 .frame6 {
@@ -198,7 +229,6 @@ a {
 
 .Acti_cont,
 .Coun_cont {
-  font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
   font-size: 64px;
@@ -263,7 +293,6 @@ a {
 .activityHeadingContent,
 .counsellorHeadingContent,
 .counsellorContact {
-  font-family: "Poppins";
   font-style: normal;
   font-size: large;
   color: #e6e6e6;
@@ -286,19 +315,4 @@ a {
   background: #ffffff14;
   border-radius: 0%;
   color: white;
-}
-
-.Homecontainer {
-  display: flex;
-  flex-direction: row;
-  align-content: center;
-  justify-content: center;
-  column-gap: 3%;
-  padding-left: 5%;
-  padding-right: 5%;
-}
-
-.homeText {
-  font-size: 1.1em;
-  line-height: 200%;
 }
