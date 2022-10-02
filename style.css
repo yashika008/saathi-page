@@ -104,8 +104,9 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 10px;
-  padding-right: 60px;
+  padding-top: 1%;
+  padding-right: 4%;
+  margin-bottom: 1%;
 }
 
 .nav-brand {
@@ -184,12 +185,6 @@ a {
   .collapse-toggle {
     max-height: 500px;
   }
-}
-
-.frame1 {
-  margin: 10px 100px 45px 100px;
-  border-radius: 0px;
-  display: flex;
 }
 
 .frame6 {
@@ -291,4 +286,19 @@ a {
   background: #ffffff14;
   border-radius: 0%;
   color: white;
+}
+
+.Homecontainer {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  column-gap: 3%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.homeText {
+  font-size: 1.1em;
+  line-height: 200%;
 }
